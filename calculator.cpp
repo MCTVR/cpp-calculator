@@ -19,7 +19,7 @@ int main() {
         double n2;
         cout << "\n Enter the first number here: ";
         cin >> n1;
-        cout << "\n Enter the operator(+, -, *, /)(enter 'stop' to stop program): ";
+        cout << "\n Enter the operator(+, -, *, /): ";
         cin >> op;
         cout << "\n Enter the second number: ";
         cin >> n2;
@@ -44,12 +44,13 @@ int main() {
         else {
             break;
         }
+
         return 0;
     }
 }
 
 /*
 MADE BY MCTVR IN HONG KONG
-VERSION 0.1 (111ee4)
+VERSION 0.2 (111ee4)
 WILL UPDATE TO ADD FEATURES AND FIX BUGS
 */
